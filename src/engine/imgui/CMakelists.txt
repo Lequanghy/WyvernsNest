@@ -1,0 +1,7 @@
+target_sources(Game PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/imgui_impl_opengl3.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/imgui_wrapper.cpp)
+
+target_sources(Game PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/imgui_impl_opengl3.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/imgui_wrapper.hpp)

@@ -1,0 +1,18 @@
+target_sources(Game PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/attack.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/enemy.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/grid.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/player.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/status.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/unit.cpp)
+
+target_sources(Game PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/attack.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/attackEffects.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/enemy.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/grid.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/player.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/status.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/unit.hpp)
+
+add_subdirectory(enemies)
